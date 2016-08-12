@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--使用信息参考以下链接-->
+    <!--http://blog.csdn.net/pgalxx/article/details/6766677-->
+
+    <declare-styleable name="CircleProgressBar">
+        <!--圆环颜色-->
+        <attr name="circleColor" format="color"/>
+        <!--圆环进度颜色-->
+        <attr name="circleProgressColor" format="color"/>
+        <!--圆环宽度-->
+        <attr name="circleWidth" format="dimension"/>
+        <!--字体颜色-->
+        <attr name="textColor" format="color"/>
+        <!--字体大小-->
+        <attr name="textSize" format="dimension"/>
+        <!--字体是否显示-->
+        <attr name="textVisible" format="boolean"/>
+        <!--进度最大值-->
+        <attr name="progressMax" format="integer"/>
+        <!--显示风格-->
+        <attr name="style">
+            <!--扇形显示进度-->
+            <enum name="fan" value="0"/>
+            <!--弧形显示-->
+            <enum name="sweep" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
